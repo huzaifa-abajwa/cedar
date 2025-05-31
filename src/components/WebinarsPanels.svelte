@@ -1,0 +1,53 @@
+<script>
+  const webinars = [
+    { title: "‘Blockchain 101,’ Webinar at Stacks Hackathon", date: "April 8, 2021" },
+    { title: "‘Blockchain 101, Laying the Foundation’ Webinar at Stacks Hackathon", date: "July 14, 2021" }
+  ];
+
+  const panels = [
+    {
+      title: "Panelist: “Web 3.0, Crypto, DeFi, Metaverse: Game Changer or Just Hype?”",
+      event: "International Conference on Big Data and Cloud Computing (BigC), LUMS",
+      date: "Dec 2022"
+    }
+  ];
+</script>
+
+<div id="webinars-panels" class="min-h-[60vh] py-16">
+  <div class="container mx-auto px-6 md:px-20">
+    <div class="text-center mb-12">
+      <h2 class="text-4xl md:text-5xl font-light bg-gradient-to-r from-red-600 to-orange-600 bg-clip-text text-transparent">
+        Webinars & Panels
+      </h2>
+      <div class="w-24 h-1 bg-gradient-to-r from-red-600 to-orange-600 rounded-full mt-4 mx-auto"></div>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-8">
+      <!-- Webinars Section -->
+      <div class="bg-gray-800/30 backdrop-blur-sm border border-gray-700/50 rounded-lg p-6">
+        <h3 class="text-2xl text-orange-500 font-semibold mb-4">Webinars at Stacks Hackathon</h3>
+        <ul class="list-disc list-inside space-y-2 text-gray-300 text-sm">
+          {#each webinars as webinar}
+            <li>
+              <span class="text-white">{webinar.title}</span><br />
+              <span class="text-gray-400 italic">{webinar.date}</span>
+            </li>
+          {/each}
+        </ul>
+      </div>
+
+      <!-- Panels Section -->
+      <div class="bg-gray-800/30 backdrop-blur-sm border border-gray-700/50 rounded-lg p-6">
+        <h3 class="text-2xl text-orange-500 font-semibold mb-4">Talks & Panels</h3>
+        <ul class="list-disc list-inside space-y-2 text-gray-300 text-sm">
+          {#each panels as panel}
+            <li>
+              <span class="text-white">{panel.title}</span><br />
+              <span class="text-gray-400 italic">{panel.event} – {panel.date}</span>
+            </li>
+          {/each}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
