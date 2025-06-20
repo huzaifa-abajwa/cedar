@@ -222,6 +222,87 @@
     </div>
   </section>
 
+  <section id="panel-investment" class="p-8 max-w-5xl mx-auto">
+    <!-- Panel 1: Investing in the Future of Digital Assets -->
+    <div class="mb-16">
+      <div class="text-center mb-8">
+        <h3
+          class="text-3xl md:text-4xl font-light bg-gradient-to-r from-red-600 to-orange-600 bg-clip-text text-transparent"
+        >
+          Investing in the Future of Digital Assets
+        </h3>
+        <div
+          class="w-24 h-1 bg-gradient-to-r from-red-600 to-orange-600 rounded-full mt-4 mx-auto"
+        ></div>
+      </div>
+      <div
+        class="aspect-video w-full rounded-lg overflow-hidden shadow-lg border border-gray-700 mb-6"
+      >
+        <iframe
+          src="https://www.youtube.com/embed/ei1uEC4TKz4"
+          title="Investing in the Future of Digital Assets | CeDAR Panel"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          class="w-full h-full"
+        ></iframe>
+      </div>
+      <p
+        class="text-gray-300 leading-relaxed text-justify bg-gray-800/40 border border-gray-700 backdrop-blur-md p-6 rounded-lg shadow"
+      >
+        Join CeDAR at LUMS for a compelling panel with
+        <strong class="text-white">Dr. Najam Kidwai</strong> (C1 Fund),
+        <strong class="text-white">Mohammad Yesilhark</strong> (NOIA Capital),
+        and
+        <strong class="text-white">Faisal Aftab</strong> (Zayn VC), moderated by
+        <strong class="text-white">Ali Farid Khwaja</strong> (Stacks Foundation /
+        KTrade). Explore global investment trends, regulatory dynamics, and the intersection
+        of technology and finance shaping the digital assets landscape.
+      </p>
+    </div>
+  </section>
+
+  <section id="panel-trust" class="p-8 max-w-5xl mx-auto">
+    <!-- Video Panel 2 -->
+    <div class="mb-12">
+      <div class="text-center mb-8">
+        <h3
+          class="text-3xl md:text-4xl font-light bg-gradient-to-r from-red-600 to-orange-600 bg-clip-text text-transparent"
+        >
+          Building Trust in the Digital Asset Ecosystem
+        </h3>
+        <div
+          class="w-24 h-1 bg-gradient-to-r from-red-600 to-orange-600 rounded-full mt-4 mx-auto"
+        ></div>
+      </div>
+      <div
+        class="aspect-video w-full rounded-lg overflow-hidden shadow-lg border border-gray-700 mb-6"
+      >
+        <iframe
+          src="https://www.youtube.com/embed/to11WTGmAJs"
+          title="Building Trust in the Digital Asset Ecosystem | CeDAR Panel"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          class="w-full h-full"
+        ></iframe>
+      </div>
+      <p
+        class="text-gray-300 leading-relaxed text-justify bg-gray-800/40 border border-gray-700 backdrop-blur-md p-6 rounded-lg shadow"
+      >
+        Delve into the future of crypto infrastructure, institutional adoption,
+        and compliance frameworks in this powerful panel. Featuring
+        <strong class="text-white">Sardar Ahmed Durrani</strong> (Genesis
+        Digital),
+        <strong class="text-white">Daniel Ahmed</strong> (Fasset),
+        <strong class="text-white">Daniel Holmes</strong> (Haruko), and
+        <strong class="text-white">Ayad Butt</strong> (Zodia Markets), this session
+        explores how infrastructure providers are forging secure, scalable paths
+        for digital assets globally.
+      </p>
+    </div>
+  </section>
+
   <section class="p-8 max-w-5xl mx-auto">
     <div class="text-center mb-12">
       <h2

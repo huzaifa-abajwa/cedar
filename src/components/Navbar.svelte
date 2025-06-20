@@ -2,17 +2,13 @@
   import { onMount } from 'svelte';
   import { location, push } from 'svelte-spa-router';
 
-  // Reactive current route
   let currentRoute;
-
-  // Subscribe to the current route store
   $: currentRoute = $location;
 
-  // Scroll offset for smooth scroll (already implemented in your onMount)
   const navbarHeight = 64;
 
   onMount(() => {
-    // Smooth scroll behavior for anchor links
+    // Smooth scroll for internal anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -30,14 +26,19 @@
     });
   });
 
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'auto' });
+  }
+
   function goToLaunch() {
-    push('/launch');
+    push('/launch').then(scrollToTop);
   }
 
   function goHome() {
-    push('/');
+    push('/').then(scrollToTop);
   }
 </script>
+
 
 <nav class="w-full flex justify-between items-center py-4 px-10 bg-gray-800/80 backdrop-blur-sm fixed top-0 z-50">
   <div class="flex items-center">
